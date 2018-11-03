@@ -128,7 +128,7 @@
 		<dependency>
 			<groupId>ch.acra</groupId>
 			<artifactId>acra</artifactId>
-			<version>4.8.2</version>
+			<version>4.8.0</version>
 		</dependency>
 
 		<!--Java SE/RE issues -->
