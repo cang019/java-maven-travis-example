@@ -48,12 +48,14 @@
 		
 		<!--41 CVE-2017-6056 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6056 -->
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
+		<!--  
 		<dependency>
 		    <groupId>org.apache.tomcat</groupId>
 		    <artifactId>tomcat-catalina</artifactId>
 		    <version>8.5.34</version>
 		</dependency>		
-
+		-->
+		
 		<!--4 CVE-2010-1157 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1157 -->
 		<!--19 CVE-2016-0714 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0714 -->
 		<!--24 CVE-2008-1947 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1947 -->
@@ -94,14 +96,17 @@
 		<!--13 CVE-2014-0109 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0109 -->
 		<!--26 CVE-2012-5575 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5575 -->
 		<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws -->
+		<!--  
 		<dependency>
 			<groupId>org.apache.cxf</groupId>
 			<artifactId>cxf-rt-frontend-jaxws</artifactId>
 			<version>2.7.0</version>
 		</dependency>
-
+		-->
+		
 		<!--37 CVE-2017-12624 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12624 -->		
 		<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf -->
+		<!--  
 		<dependency>
 		    <groupId>org.apache.cxf</groupId>
 		    <artifactId>cxf</artifactId>
@@ -109,12 +114,14 @@
 		    <type>pom</type>
 		</dependency>		
 		<!-- https://mvnrepository.com/artifact/javax.xml.ws/jaxws-api -->
+		<!-- 
 		<dependency>
 		    <groupId>javax.xml.ws</groupId>
 		    <artifactId>jaxws-api</artifactId>
 		    <version>2.3.0</version>
 		</dependency>		
-
+		-->
+		
 		<!--7 CVE-2012-5812 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5812 -->
 		<!-- https://mvnrepository.com/artifact/ch.acra/acra -->
 		<dependency>
@@ -127,8 +134,13 @@
 		<!--8 CVE-2013-0443 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0443 -->
 		<!--10 CVE-2013-2448 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2448 -->
 		<!--27 CVE-2013-4002 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4002 -->
-		<!--<dependency> <groupId></groupId> <artifactId></artifactId> <version></version> 
-			</dependency> -->
+		<!--
+		<dependency> 
+			<groupId></groupId> 
+			<artifactId></artifactId> 
+			<version></version> 
+		</dependency> 
+		-->
 
 		<!--12 CVE-2013-2448 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2448 -->
 		<!-- https://mvnrepository.com/artifact/org.apache.solr/solr-core -->
@@ -149,11 +161,13 @@
 			<version>23.0.1</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.atlassian.browsers/firefox -->
+		<!--  
 		<dependency>
 			<groupId>com.atlassian.browsers</groupId>
 			<artifactId>firefox</artifactId>
 			<version>44.0</version>
 		</dependency>
+		-->
 
 		<!--15 CVE-2014-3577 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3577 -->
 		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
