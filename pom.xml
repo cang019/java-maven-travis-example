@@ -213,13 +213,7 @@
 			<version>0.3.0.Final</version>
 		</dependency>
 
-		<!--17 CVE-2015-1776 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1776 -->
-		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
-		<dependency>
-			<groupId>org.apache.hadoop</groupId>
-			<artifactId>hadoop-common</artifactId>
-			<version>2.6.2</version>
-		</dependency>
+
 
 		<!--22 CVE-2016-7046 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7046 -->
 		<!-- https://mvnrepository.com/artifact/jboss/jboss-j2ee -->
@@ -228,20 +222,6 @@
 			<artifactId>jboss-j2ee</artifactId>
 			<version>4.2.2.GA</version>
 			<scope>provided</scope>
-		</dependency>
-
-		<!--23 CVE-2017-1000208 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000208 -->
-		<!-- https://mvnrepository.com/artifact/io.swagger/swagger-parser -->
-		<dependency>
-			<groupId>io.swagger</groupId>
-			<artifactId>swagger-parser</artifactId>
-			<version>1.0.27</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.swagger/swagger-codegen -->
-		<dependency>
-			<groupId>io.swagger</groupId>
-			<artifactId>swagger-codegen</artifactId>
-			<version>2.2.0</version>
 		</dependency>
 
 		<!--25 CVE-2011-1511 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1511 -->
@@ -285,8 +265,34 @@
 	
 		
 	<!-- TESTED -->
+	
+		<!--17 CVE-2015-1776 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1776 -->
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
+		<!-- WORKING -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-common</artifactId>
+			<version>2.6.2</version>
+		</dependency>
+	
+		<!--23 CVE-2017-1000208 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000208 -->
+		<!-- https://mvnrepository.com/artifact/io.swagger/swagger-parser -->
+		<!-- WORKING -->
+		<dependency>
+			<groupId>io.swagger</groupId>
+			<artifactId>swagger-parser</artifactId>
+			<version>1.0.27</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.swagger/swagger-codegen -->
+		<dependency>
+			<groupId>io.swagger</groupId>
+			<artifactId>swagger-codegen</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+	
 		<!--28 CVE-2014-8110 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8110 -->		
 		<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-all -->
+		<!-- WORKING -->
 		<dependency>
 		    <groupId>org.apache.activemq</groupId>
 		    <artifactId>activemq-all</artifactId>
