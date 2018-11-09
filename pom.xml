@@ -43,7 +43,7 @@
 		<dependency>
 		    <groupId>org.apache.juddi.bootstrap</groupId>
 		    <artifactId>apache-tomcat</artifactId>
-		    <version>5.5.27</version>
+		    <version>6.0.20</version>
 		</dependency>
 	<!-- END OF TESTED -->
 	
